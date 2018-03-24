@@ -4,7 +4,7 @@ import axios from "axios";
 
 class DinnerMenu extends Component {
   state = {menus: []}
-  
+
   componentDidMount(){
     axios.get("/api/menus")
       .then(res => this.setState({menus: res.data}))
