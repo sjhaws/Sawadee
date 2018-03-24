@@ -1,5 +1,5 @@
 class Api::MenusController < ApplicationController
-  before_action :set_menu, only: [:update, :edit]
+  before_action :set_menu, only: [:update]
   
   def index
     render json: Menu.all
@@ -12,9 +12,6 @@ class Api::MenusController < ApplicationController
     else
       render json: { errors: menu.errors }, status: 422
     end
-  end
-
-  def edit
   end
 
   def update
