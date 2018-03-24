@@ -64,12 +64,14 @@ Good Green: #B3EC98 */
    background: #CB7B27;
    position: relative;
 }
+
 .filtered img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: 0.5;
+}
 
-.menucard{
+.menucard {
   text-overflow: ellipsis;
   margin: 1% !important;
 }
