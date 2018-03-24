@@ -6,9 +6,13 @@ Attention Yellow: #EEEB7A
 Warning Red: #FF8A8A
 Good Green: #B3EC98 */
 
-a{
+.footWrap a{
   color: #CB7B27 !important;
 }
+
+.socialmedia a{
+  color: #fff !important;
+} 
 
 .header{
   font-family: 'RobotoSlab-Light';

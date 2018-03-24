@@ -52,6 +52,27 @@ class Footer extends Component {
           <br/>
           <a href="mailto:info@sawadee1.com">Email: info@sawadee1.com</a>
           </p>
+          <br/>
+          <div class="socialmedia">
+          <button class="ui facebook button">
+          <a href="https://www.facebook.com/" target="_blank">
+          <i class="facebook icon"></i>
+          facebook
+          </a>
+          </button>
+          <button  class="ui twitter button">
+          <a href="https://www.twitter.com/" target="_blank">
+          <i class="twitter icon"></i>
+          Twitter
+          </a>
+          </button>
+          <button class="ui instagram button">
+          <a href="https://www.instagram.com/" target="_blank">
+          <i class="instagram icon"></i>
+          Instagram
+          </a>
+          </button>
+          </div>
           </div>
         </div>
       </div>
