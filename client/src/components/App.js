@@ -13,6 +13,7 @@ import DinnerMenu from './DinnerMenu';
 import LunchMenu from './LunchMenu';
 import Info from './Info';
 import Footer from './Footer';
+import EditMenuItem from './EditMenuItem'
 
 class App extends Component {
   render() {

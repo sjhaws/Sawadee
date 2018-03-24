@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Input, Header, Button, Card } from 'semantic-ui-react';
 import axios from "axios";
-import MenuItem from "./MenuItem";
+import Jer from "./MenuItem";
+
 
 class LunchMenu extends Component {
   state = {menus: []}
@@ -18,7 +19,7 @@ class LunchMenu extends Component {
       <Header as='h1' textAlign='center'>Lunch Menu</Header>
         <div className="ui grid">
           { this.state.menus.map( menu => 
-            <MenuItem {...menu}/>
+            <Jer {...menu}/>
           )}
         </div>
       </div>
