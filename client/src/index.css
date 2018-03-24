@@ -45,3 +45,7 @@ Good Green: #B3EC98 */
   text-overflow: ellipsis;
   margin: 1% !important;
 }
+
+.addbtn{
+  align-content: flex-end !important;
+}
