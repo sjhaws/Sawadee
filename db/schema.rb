@@ -10,10 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180324155842) do
+ActiveRecord::Schema.define(version: 20180324163807) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "cart_lists", force: :cascade do |t|
+    t.string "menu_id"
+    t.bigint "cart_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["cart_id"], name: "index_cart_lists_on_cart_id"
+  end
+
+  create_table "carts", force: :cascade do |t|
+    t.float "total"
+    t.bigint "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_carts_on_user_id"
+  end
 
   create_table "menus", force: :cascade do |t|
     t.string "name"
@@ -58,4 +74,6 @@ ActiveRecord::Schema.define(version: 20180324155842) do
     t.index ["uid", "provider"], name: "index_users_on_uid_and_provider", unique: true
   end
 
+  add_foreign_key "cart_lists", "carts"
+  add_foreign_key "carts", "users"
 end
