@@ -1,0 +1,21 @@
+/* Colors
+Orange: #CB7B27
+Dark Grey: #4A4A4A
+White: #FFFFFF
+Attention Yellow: #EEEB7A
+Warning Red: #FF8A8A
+Good Green: #B3EC98 */
+
+.header{
+  font-family: RobotoSlab-Light;
+  font-size: 30px;
+  color: #CB7B27 !important;
+  text-align: left;
+}
+
+.body{
+  font-family: Roboto-Light;
+  font-size: 18px;
+  color: #4A4A4A;
+  text-align: left;
+}
