@@ -4,6 +4,7 @@ import axios from "axios";
 
 class LunchMenu extends Component {
   state = {menus: []}
+  menus = this.state
 
   componentDidMount(){
     axios.get("/api/menus")
@@ -14,7 +15,7 @@ class LunchMenu extends Component {
     return (
       <div>
       <Header as='h1' textAlign='center'>Lunch Menu</Header>
-        {/* { this.state.map( menu => 
+        {/* { menus.map( menu => 
           <div key={menu.id} className="ui card two wide column">
           <h2>{menu.name}</h2>
           <h3>${menu.price}</h3>
