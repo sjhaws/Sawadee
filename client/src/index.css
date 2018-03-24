@@ -40,3 +40,8 @@ Good Green: #B3EC98 */
   padding: 10px;
   margin-right: 50px;
 }
+
+.menucard{
+  text-overflow: ellipsis;
+  margin: 1% !important;
+}

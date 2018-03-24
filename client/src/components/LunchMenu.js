@@ -15,9 +15,11 @@ class LunchMenu extends Component {
     return (
       <div className="ui container">
       <Header as='h1' textAlign='center'>Lunch Menu</Header>
-        { this.state.menus.map( menu => 
-          <MenuItem {...menu} />
-        )}
+        <div className="ui grid">
+          { this.state.menus.map( menu => 
+            <MenuItem {...menu}/>
+          )}
+        </div>
       </div>
     );
   }
