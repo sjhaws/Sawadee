@@ -6,16 +6,26 @@ Attention Yellow: #EEEB7A
 Warning Red: #FF8A8A
 Good Green: #B3EC98 */
 
+a{
+  color: #CB7B27 !important;
+}
+
 .header{
-  font-family: RobotoSlab-Light;
+  font-family: 'RobotoSlab-Light';
   font-size: 30px;
   color: #CB7B27 !important;
   text-align: left;
 }
 
 .body{
-  font-family: Roboto-Light;
+  font-family: 'Roboto-Light';
   font-size: 18px;
   color: #4A4A4A;
   text-align: left;
+}
+.footWrap{
+  margin-top: 40px;
+  bottom: 0;
+  background-color: #4A4A4A;
+  color: #FFF;
 }

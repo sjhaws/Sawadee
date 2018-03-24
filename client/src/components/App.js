@@ -13,6 +13,7 @@ import DinnerMenu from './DinnerMenu';
 import LunchMenu from './LunchMenu';
 import Info from './Info';
 import Cart from './Cart';
+import Footer from './Footer';
 
 class App extends Component {
   render() {
@@ -32,6 +33,8 @@ class App extends Component {
             <Route component={NoMatch} />
           </Switch>
         </FetchUser>
+
+        <Footer />
       </div>
     );
   }
