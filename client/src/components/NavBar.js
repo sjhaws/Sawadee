@@ -45,6 +45,7 @@ class NavBar extends Component {
             </div>
             </div>
           </div>
+          
           </Menu.Item>
       </Menu.Menu>
     );
