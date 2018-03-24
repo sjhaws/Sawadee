@@ -23,6 +23,9 @@ class NavBar extends Component {
         {/* <Link to='/register'>
           <Menu.Item name='Register' />
         </Link> */}
+          <Link to='Cart'>
+            <Menu.Item name='Cart'/>
+          </Link>
         <Link to='/login'>
           <Menu.Item name='Admin' />
         </Link>
@@ -42,12 +45,6 @@ class NavBar extends Component {
           </Link>
           <Link to='DinnerMenu'>
             <Menu.Item name='Dinner Menu'/>
-          </Link>
-          <Link to='Info'>
-            <Menu.Item name='Info'/>
-          </Link>
-          <Link to='Cart'>
-            <Menu.Item name='Cart'/>
           </Link>
           { this.rightNavs() }
         </Menu>
