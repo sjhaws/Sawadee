@@ -10,6 +10,10 @@ Good Green: #B3EC98 */
   color: #CB7B27 !important;
 }
 
+.socialmedia a{
+  color: #fff !important;
+} 
+
 .header{
   font-family: 'Roboto Slab', serif !important;
   font-size: 30px;
