@@ -21,6 +21,8 @@ ActiveRecord::Schema.define(version: 20180324155842) do
     t.float "price"
     t.string "dietary"
     t.string "category"
+    t.integer "views"
+    t.integer "purchases"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
