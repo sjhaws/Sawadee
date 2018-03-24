@@ -29,3 +29,8 @@ a{
   background-color: #4A4A4A;
   color: #FFF;
 }
+
+.heroimg{
+    max-width: 100% !important;
+    max-height: 50% !important;
+}

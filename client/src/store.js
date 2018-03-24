@@ -3,21 +3,8 @@ import thunk from 'redux-thunk';
 import apiMiddleware from 'redux-devise-axios';
 import rootReducer from './reducers/index';
 import axios from 'axios';
-import { cartReducer } from 'react-redux-shopping-cart';
 
 const options = { axios };
-
-const rootReducer = () =>
-  combineReducers({
-    //other reducers
-    cart: cartReducer,
-  });
-
-const store = createStore(
-  rootReducer(),
-  //middleware and enchancer composition
-  ,
-);
 
 const enhancers = compose(
   applyMiddleware(thunk, apiMiddleware(options)),
