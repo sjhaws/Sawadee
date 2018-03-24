@@ -21,10 +21,12 @@ class NavBar extends Component {
           <Link to="Cart">
               <Menu.Item name="Cart"/>
           </Link>
+          <Link to="Logout">
           <Menu.Item
             name='Logout'
             onClick={() => dispatch(handleLogout(history))}
           />
+          </Link>
         </Menu.Menu>
       );
     }
