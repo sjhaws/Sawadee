@@ -3,6 +3,7 @@ import { Menu } from 'semantic-ui-react';
 import { Link, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { handleLogout } from '../actions/auth';
+import logo from "../images/Sawadee-Full-Logo@2x.png";
 
 class NavBar extends Component {
   rightNavs = () => {
@@ -23,12 +24,28 @@ class NavBar extends Component {
         {/* <Link to='/register'>
           <Menu.Item name='Register' />
         </Link> */}
-          <Link to='Cart'>
-            <Menu.Item name='Cart'/>
-          </Link>
-        <Link to='/login'>
-          <Menu.Item name='Admin' />
-        </Link>
+          <Menu.Item>
+          <div className="ui menu">
+            <a className="browse item active">
+              Account
+              <i className="dropdown icon"></i>
+            </a>
+          </div>
+          <div className="ui fluid popup bottom left transition visible animating scale out">
+          <div class="ui four column relaxed equal height divided grid">
+            <div className="column">
+            <div className="ui link list">
+              <Link to='Login' className="item">
+                <Menu.Item name='Login'/>
+              </Link>
+              <Link to='Cart' className="item">
+                <Menu.Item name='Order Online'/>
+              </Link>
+              </div>
+            </div>
+            </div>
+          </div>
+          </Menu.Item>
       </Menu.Menu>
     );
   }
@@ -38,7 +55,7 @@ class NavBar extends Component {
       <div>
         <Menu pointing secondary  className="header">
           <Link to='/'>
-            <Menu.Item name='Sawadee' />
+            <img src={logo} alt="logo" className="toplogo" />
           </Link>
           <Link to='LunchMenu'>
             <Menu.Item name='lunch menu' />

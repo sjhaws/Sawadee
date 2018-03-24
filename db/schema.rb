@@ -24,6 +24,8 @@ ActiveRecord::Schema.define(version: 20180324163807) do
   end
 
   create_table "carts", force: :cascade do |t|
+    t.string "name"
+    t.string "phone"
     t.float "total"
     t.bigint "user_id"
     t.datetime "created_at", null: false
@@ -64,6 +66,7 @@ ActiveRecord::Schema.define(version: 20180324163807) do
     t.string "nickname"
     t.string "image"
     t.string "email"
+    t.string "role"
     t.json "tokens"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

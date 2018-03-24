@@ -34,3 +34,9 @@ a{
     max-width: 100% !important;
     max-height: 50% !important;
 }
+
+.toplogo{
+  height: 50px;
+  padding: 10px;
+  margin-right: 50px;
+}

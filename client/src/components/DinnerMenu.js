@@ -14,7 +14,7 @@ class DinnerMenu extends Component {
   render() {
     return (
       <div>
-      <Header as='h1' textAlign='center'>Lunch Menu</Header>
+      <Header as='h1' textAlign='center'>Dinner Menu</Header>
         {/* { this.state.map( menu => 
           <div key={menu.id} className="ui card two wide column">
           <h2>{menu.name}</h2>
