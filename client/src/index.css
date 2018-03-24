@@ -6,19 +6,19 @@ Attention Yellow: #EEEB7A
 Warning Red: #FF8A8A
 Good Green: #B3EC98 */
 
-a{
+.footWrap a{
   color: #CB7B27 !important;
 }
 
 .header{
-  font-family: 'RobotoSlab-Light';
+  font-family: 'Roboto Slab', serif !important;
   font-size: 30px;
   color: #CB7B27 !important;
   text-align: left;
 }
 
 .body{
-  font-family: 'Roboto-Light';
+  font-family: 'Roboto', sans-serif !important;
   font-size: 18px;
   color: #4A4A4A;
   text-align: left;
@@ -28,9 +28,5 @@ a{
   bottom: 0;
   background-color: #4A4A4A;
   color: #FFF;
-}
-
-.heroimg{
-    max-width: 100% !important;
-    max-height: 50% !important;
+  font-family: 'Roboto', sans-serif !important;
 }
