@@ -19,9 +19,6 @@ class NavBar extends Component {
           <Link to='DinnerMenu'>
             <Menu.Item name='Dinner Menu'/>
           </Link>
-          <Link to="Cart">
-              <Menu.Item name="Cart"/>
-          </Link>
           <Link to="Logout">
           <Menu.Item
             name='Logout'
@@ -41,9 +38,6 @@ class NavBar extends Component {
         </Link>
         <Link to="/register">
           <Menu.Item name="Register" />
-        </Link>
-        <Link to="Cart">
-          <Menu.Item name="Cart"/>
         </Link>
         <Link to="/login">
           <Menu.Item name="Login" />

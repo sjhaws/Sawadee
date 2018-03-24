@@ -12,7 +12,6 @@ import { Switch, Route } from 'react-router-dom';
 import DinnerMenu from './DinnerMenu';
 import LunchMenu from './LunchMenu';
 import Info from './Info';
-import Cart from './Cart';
 import Footer from './Footer';
 
 class App extends Component {
@@ -27,7 +26,6 @@ class App extends Component {
             <Route exact path='/LunchMenu' component={LunchMenu} />
             <Route exact path='/DinnerMenu' component={DinnerMenu} />
             <Route exact path='/Info' component={Info}/>
-            <Route exact path='/Cart' component={Cart} />
             <AuthRoute exact path='/login' component={Login} />
             <AuthRoute exact path='/register' component={Register} />
             <Route component={NoMatch} />
