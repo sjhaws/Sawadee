@@ -1,11 +1,27 @@
 import React, { Component } from 'react';
-import { Header } from 'semantic-ui-react';
+import { Header, Image, Segment } from 'semantic-ui-react';
+import logo from '../images/Sawadee-White.png';
+import About from './About';
+
+
 
 class Home extends Component {
   render() {
     return (
-        <Header as='h1' textAlign='center'>Sawadee Thai</Header>
-        
+      <div>
+        <div className="filtered">
+          <div className="heroimg">
+            <div className="herologo" centered>
+              <Image src={logo} size='large' verticalAlign='middle'  />
+            </div>
+          </div>
+        </div>
+
+        <div class="aboutContainer">
+          <About />
+        </div>
+      </div>
+
     );
   }
 }
