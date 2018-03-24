@@ -12,13 +12,14 @@ Good Green: #B3EC98 */
 
 .socialmedia a{
   color: #fff !important;
-} 
+}
 
 .header{
   font-family: 'Roboto Slab', serif !important;
   font-size: 30px;
   color: #CB7B27 !important;
   text-align: left;
+
 }
 
 .body{
@@ -39,4 +40,31 @@ Good Green: #B3EC98 */
   height: 50px;
   padding: 10px;
   margin-right: 50px;
+}
+
+.herologo{
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+
+}
+.heroimg {
+  background-image: url("https://images.unsplash.com/photo-1485768071412-bded21c2be08?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=12b836d13b960ad94aaf2f924096e912&auto=format&fit=crop&w=1350&q=80");
+  height: 500px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.5;
+
+
+}
+.filtered {
+   background: #CB7B27;
+   position: relative;
+}
+.filtered img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.5;
 }
