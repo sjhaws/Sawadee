@@ -12,7 +12,7 @@ Good Green: #B3EC98 */
 
 .socialmedia a{
   color: #fff !important;
-} 
+}
 
 .header{
   font-family: 'Roboto Slab', serif !important;
@@ -48,4 +48,9 @@ Good Green: #B3EC98 */
 
 .addbtn{
   align-content: flex-end !important;
+}
+
+.Hquote{
+  text-align: center !important;
+  color: #4a4a4a;
 }
