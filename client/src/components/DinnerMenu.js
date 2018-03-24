@@ -14,6 +14,7 @@ class DinnerMenu extends Component {
   render() {
     return (
       <div className="ui container">
+      <br />
       <Header as='h1' textAlign='center'>Dinner Menu</Header>
       <div>
         <button class="huge ui button">
