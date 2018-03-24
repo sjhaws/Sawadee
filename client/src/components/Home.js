@@ -4,7 +4,9 @@ import { Header } from 'semantic-ui-react';
 class Home extends Component {
   render() {
     return (
-      <Header as='h1' textAlign='center'>Home</Header>
+      <div>
+        <Header as='h1' textAlign='center'>Sawadee Thai</Header>
+      </div>
     );
   }
 }
