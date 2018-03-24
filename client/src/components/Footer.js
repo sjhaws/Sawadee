@@ -55,7 +55,7 @@ class Footer extends Component {
           <br/>
           <div class="socialmedia">
           <button class="ui facebook button">
-          <a href="https://www.facebook.com/" target="_blank">
+          <a href="https://www.facebook.com/sawadeeutah/" target="_blank">
           <i class="facebook icon"></i>
           facebook
           </a>
