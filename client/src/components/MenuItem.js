@@ -16,7 +16,7 @@ class Jer extends Component {
     const { user, dispatch, history } = this.props;
     
     return (
-      <Card key={this.props.id} className="ui card five wide column ard">
+      <Card key={this.props.id} className="ui card five wide column menucard">
       <h2>{this.props.name}</h2>
       <h3>${this.props.price}</h3>
       <h3>{this.props.description}</h3>
