@@ -8,7 +8,6 @@ class DinnerMenu extends Component {
   componentDidMount(){
     axios.get("/api/menus")
       .then(res => this.setState({menus: res.data}))
-      .then( menus => this.setState({menus: menus.filter(menu => menu.category === "dinner")}) )
   }
 
   render() {

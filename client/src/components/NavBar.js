@@ -20,33 +20,16 @@ class NavBar extends Component {
       );
     }
     return (
-      <Menu.Menu position='right'>
-        {/* <Link to='/register'>
-          <Menu.Item name='Register' />
-        </Link> */}
-          <Menu.Item>
-          <div className="ui menu">
-            <a className="browse item active">
-              Account
-              <i className="dropdown icon"></i>
-            </a>
-          </div>
-          <div className="ui fluid popup bottom left transition visible animating scale out">
-          <div class="ui four column relaxed equal height divided grid">
-            <div className="column">
-            <div className="ui link list">
-              <Link to='Login' className="item">
-                <Menu.Item name='Login'/>
-              </Link>
-              <Link to='Cart' className="item">
-                <Menu.Item name='Order Online'/>
-              </Link>
-              </div>
-            </div>
-            </div>
-          </div>
-          
-          </Menu.Item>
+      <Menu.Menu position="right">
+        <Link to="/register">
+          <Menu.Item name="Register" />
+        </Link>
+          <Link to="Cart">
+            <Menu.Item name="Cart"/>
+          </Link>
+        <Link to="/login">
+          <Menu.Item name="Login" />
+        </Link>
       </Menu.Menu>
     );
   }
