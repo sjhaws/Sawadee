@@ -20,11 +20,10 @@ class Home extends Component {
           </div>
         </div>
 
-
-          <div>
+        <div class="aboutContainer">
           <About />
-          </div>
-          </div>
+        </div>
+      </div>
 
     );
   }
