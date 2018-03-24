@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-
-import { Header, Image } from 'semantic-ui-react';
+import { Header, Image, Segment } from 'semantic-ui-react';
 import logo from '../images/Sawadee-White.png';
-
-
 import About from './About';
 
 
@@ -11,7 +8,7 @@ import About from './About';
 class Home extends Component {
   render() {
     return (
-        <div>
+      <div>
         <div className="filtered">
           <div className="heroimg">
             <div className="herologo" centered>
@@ -20,11 +17,9 @@ class Home extends Component {
           </div>
         </div>
 
-      <div>
-
-
-        <About />
-      </div>
+        <div class="aboutContainer">
+          <About />
+        </div>
       </div>
 
     );
