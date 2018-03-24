@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Header, Image } from 'semantic-ui-react';
+import { Header, Image, Grid, Button, Segment } from 'semantic-ui-react';
 import logo from '../images/Sawadee-White.png';
 
 
@@ -20,12 +20,11 @@ class Home extends Component {
           </div>
         </div>
 
-      <div>
 
-
-        <About />
-      </div>
-      </div>
+          <div>
+          <About />
+          </div>
+          </div>
 
     );
   }

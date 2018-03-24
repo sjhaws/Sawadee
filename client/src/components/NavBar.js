@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Menu } from 'semantic-ui-react';
+import { Menu, Button } from 'semantic-ui-react';
 import { Link, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { handleLogout } from '../actions/auth';
@@ -58,6 +58,13 @@ class NavBar extends Component {
           <Link to='/'>
             <img src={logo} alt="logo" className="toplogo" />
           </Link>
+          <Menu.Item>
+             <Button compact basic size='small' color="orange" href="https://www.doordash.com/store/sawadee-utah-thai-restaurant-salt-lake-city-130244/?utm_campaign=gpa" target="_blank">
+
+             Order Now
+
+             </Button>
+           </Menu.Item>
           { this.rightNavs() }
         </Menu>
       </div>
