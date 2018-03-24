@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import { handleLogout } from '../actions/auth';
 import logo from "../images/Sawadee-Full-Logo@2x.png";
 
+
 class NavBar extends Component {
   rightNavs = () => {
     const { user, dispatch, history } = this.props;

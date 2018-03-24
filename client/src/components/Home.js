@@ -5,6 +5,7 @@ class Home extends Component {
   render() {
     return (
         <Header as='h1' textAlign='center'>Sawadee Thai</Header>
+        
     );
   }
 }
