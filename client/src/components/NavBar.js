@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import { handleLogout } from '../actions/auth';
 import logo from "../images/Sawadee-Full-Logo@2x.png";
 
+
 class NavBar extends Component {
   rightNavs = () => {
     const { user, dispatch, history } = this.props;
@@ -17,9 +18,6 @@ class NavBar extends Component {
           </Link>
           <Link to='DinnerMenu'>
             <Menu.Item name='Dinner Menu'/>
-          </Link>
-          <Link to="Cart">
-              <Menu.Item name="Cart"/>
           </Link>
           <Link to="Logout">
           <Menu.Item
@@ -40,9 +38,6 @@ class NavBar extends Component {
         </Link>
         <Link to="/register">
           <Menu.Item name="Register" />
-        </Link>
-        <Link to="Cart">
-          <Menu.Item name="Cart"/>
         </Link>
         <Link to="/login">
           <Menu.Item name="Login" />

@@ -6,7 +6,11 @@ Attention Yellow: #EEEB7A
 Warning Red: #FF8A8A
 Good Green: #B3EC98 */
 
-.footWrap a{
+.aboutContainer{
+  margin: 5%;
+}
+
+a{
   color: #CB7B27 !important;
 }
 
@@ -42,7 +46,10 @@ Good Green: #B3EC98 */
   margin-right: 50px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> cb257a1c3bb95475a89ae4853d6694fc7c8c137b
 .herologo{
   height: auto;
   position: absolute;

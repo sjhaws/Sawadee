@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header } from 'semantic-ui-react';
+import { Header, Divider } from 'semantic-ui-react';
 import "../index.css"
 
 class About extends Component {
@@ -7,14 +7,14 @@ class About extends Component {
   render() {
     return (
     <div class="ui centered grid">
-      <div class="thirteen wide column">
-        <Header as='h2' textAlign='center'>About Us</Header>
+      <div class="ten wide column">
+        <Divider horizontal>About Us</Divider>
         <p>
-        <h3 class="Hquote">
+        <h4 class="Hquote">
         <em>
         Sawadee will treat your taste buds to the finest in Thai cooking.
         </em>
-        </h3>
+        </h4>
           <br/>
 
           Indulge yourself in the classic cuisine Sawadee offers.  Many people think of Thai food as spicy. In truth dishes run the gamut from pleasantly mild to piquantly spicy. At Sawadee Thai Restaurant individual dishes are adjusted to taste with our superb sauces and dips. Sawadee has over 50 dishes on her menu including classic Pad Thai with shrimp and crisp vegetables, seafood with zesty Nam Phrik chili sauce, Barbecued chicken or Skewered pork with sweet Nam Jim Kai sauce. For the curry lover, Sawadee prepares red, yellow and green curry dishes, each with their subtle differences. Sawadee Thai Restaurant is truly an adventure.
