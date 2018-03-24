@@ -42,6 +42,7 @@ Good Green: #B3EC98 */
   margin-right: 50px;
 }
 
+<<<<<<< HEAD
 .herologo{
   height: auto;
   position: absolute;
@@ -67,4 +68,17 @@ Good Green: #B3EC98 */
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: 0.5;
+
+.menucard{
+  text-overflow: ellipsis;
+  margin: 1% !important;
+}
+
+.addbtn{
+  align-content: flex-end !important;
+}
+
+.Hquote{
+  text-align: center !important;
+  color: #4a4a4a;
 }
